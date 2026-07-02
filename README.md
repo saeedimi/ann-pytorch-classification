@@ -67,28 +67,43 @@ This notebook demonstrates how to build, train, and evaluate a fully connected n
 
 
 ---
-
 ## Notebook 3 — Neural Network Applications
-
-<!-- Add notebook image here -->
 
 ### Overview
 
-This notebook demonstrates an end-to-end neural network workflow on a practical dataset, including data preprocessing, model training, evaluation, and visualization of results.
+This notebook explores both the theoretical foundations and practical applications of neural networks. It begins by implementing a two-layer neural network from scratch for multiclass classification using the Iris dataset, and then applies PyTorch to perform binary image classification on the Cars vs. Trucks dataset.
 
-**Topics Covered**
+### Classification Tasks
 
-* End-to-end deep learning workflow
-* Dataset preprocessing
-* Model training
-* Evaluation metrics
-* Model performance visualization
+| Task | Dataset |
+|------|---------|
+| 🌸 **Tabular Multiclass Classification** | Iris Dataset |
+| 🚗🚚 **Binary Image Classification** | Cars vs. Trucks Dataset |
 
-**Notebook**
+#### 🌸 Tabular Multiclass Classification (Iris)
 
-```text
-03_neural_network_applications.ipynb
-```
+<p align="center">
+  <img src="images/images.jpeg" width="400">
+</p>
+
+
+
+### Topics Covered
+
+- Building a neural network from scratch
+- Forward and backward propagation
+- Gradient verification
+- Iris flower classification (3 classes)
+- Cars vs. Trucks image classification
+- Dataset preprocessing
+- Model training and evaluation
+- Hyperparameter tuning
+- Performance visualization
+- Comparing ANN and CNN models
+
+### Notebook
+
+- `03_neural_network_applications.ipynb`
 
 ---
 
