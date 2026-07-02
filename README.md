@@ -42,27 +42,29 @@ This notebook introduces the core concepts behind artificial neural networks and
 
 ---
 
-## Notebook 2 — Multiclass Neural Networks
 
-<!-- Add notebook image here -->
+## Notebook 2 — Multi-Class Neural Networks
 
 ### Overview
 
-This notebook extends the concepts introduced in Notebook 1 to multiclass classification problems. It explores softmax outputs, multiclass loss functions, and the implementation of deeper neural network architectures using PyTorch.
+This notebook demonstrates how to build, train, and evaluate a fully connected neural network for multi-class image classification using the MNIST handwritten digit dataset. It introduces softmax-based classification, multiclass loss functions, model evaluation, and inference on both MNIST samples and external handwritten images.
 
-**Topics Covered**
+### Topics Covered
 
-* Softmax activation
-* Multiclass Cross-Entropy Loss
-* Multiclass classification
-* Neural network training
-* Performance evaluation
+- MNIST dataset preparation
+- Fully connected neural network architecture
+- Softmax activation
+- Cross-Entropy Loss
+- Multi-class classification
+- Model training and validation
+- Performance evaluation
+- Inference on external images
+- Image preprocessing for prediction
 
-**Notebook**
+### Notebook
 
-```text
-02_multiclass_neural_networks.ipynb
-```
+- `02_multiclass_neural_networks.ipynb`
+
 
 ---
 
