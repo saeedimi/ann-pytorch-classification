@@ -133,7 +133,7 @@ This notebook explores both the theoretical foundations and practical applicatio
 
 ---
 
-# Getting Started
+## Getting Started
 
 Clone the repository:
 
@@ -141,10 +141,10 @@ Clone the repository:
 git clone https://github.com/Miladsaeedi70/artificial-neural-networks-pytorch.git
 ```
 
-Install the required packages:
+Install the required packages manually:
 
 ```bash
-pip install -r requirements.txt
+pip install torch torchvision numpy pandas matplotlib scikit-learn jupyter
 ```
 
 Launch Jupyter Notebook:
@@ -153,7 +153,6 @@ Launch Jupyter Notebook:
 jupyter notebook
 ```
 
-Start with **Notebook 1** and continue through the notebooks in numerical order.
 
 ---
 
